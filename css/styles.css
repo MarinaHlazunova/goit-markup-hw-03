@@ -111,9 +111,6 @@ p {
 }
 .header-address {
   font-style: normal;
-  display: flex;
-  justify-content: space-between;
-  gap: 40px;
 }
 .header-nav-address {
   display: flex;
@@ -131,6 +128,7 @@ p {
 .address:focus {
   color: #404bbf;
 }
+
 .hero {
   background: #2e2f42;
   padding: 188px 0;
