@@ -13,7 +13,13 @@ ol {
 button {
   cursor: pointer;
 }
-
+.container {
+  max-width: ;
+  padding: left;
+  padding-right: ;
+  margin-left: ;
+  margin-right: ;
+}
 h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
@@ -48,8 +54,35 @@ p {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.header {
+  border-bottom: 1px solid #e7e9fc;
+  display: flex;
+  justify-content: space-between;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
 
+.header-nav-item {
+  display: flex;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-item-list {
+  padding-right: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
 .logo {
+  padding-right: 76;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -67,22 +100,13 @@ p {
   text-transform: uppercase;
   color: #2e2f42;
 }
-
-.header-item-list {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
 .header-item-list:hover,
 .header-item-list:focus {
   color: #404bbf;
 }
 .header-address {
   font-style: normal;
+  justify-content: end;
 }
 .address {
   font-family: 'Roboto', sans-serif;
@@ -149,24 +173,50 @@ p {
 }
 .portfolio {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.sec-portfolio-title {
+  margin-bottom: 72px;
+  text-align: center;
+  text-transform: capitalize;
 }
 .sec-portfolio-ul {
   background-color: #f4f4fd;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  width: calc((100% - 48px) / 3);
 }
-.sec-portfolio-title {
-  text-align: center;
-  text-transform: capitalize;
+.sec-portfolio-li {
+  background-color: #ffffff;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+.strange-div {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+.sec-portfolio-name {
+  margin-bottom: 8px;
 }
 .footer {
   background: #2e2f42;
 }
-.footer-text {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
+.logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
+  padding-right: 76;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 .logo-style-footer {
   font-family: 'Raleway', sans-serif;
@@ -176,4 +226,13 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
+}
+.footer-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  max-width: 264px;
 }
