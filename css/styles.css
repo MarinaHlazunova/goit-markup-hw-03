@@ -13,7 +13,9 @@ ol {
 button {
   cursor: pointer;
 }
-
+img {
+  display: block;
+}
 h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
@@ -181,13 +183,13 @@ p {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  width: calc((100% - 48px) / 3);
 }
 .sec-portfolio-li {
   background-color: #ffffff;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+  width: calc((100% - 48px) / 3);
 }
 .strange-div {
   padding: 32px 16px;
