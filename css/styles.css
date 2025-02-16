@@ -89,6 +89,7 @@ p {
 .header-nav {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 
 .header-container {
@@ -98,7 +99,6 @@ p {
 
 .header-item-list {
   padding: 24px 0;
-  padding-right: 40px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -144,6 +144,7 @@ p {
 .header-nav-address {
   display: flex;
   gap: 40px;
+  margin: 0;
 }
 .header-address-li {
   display: flex;
@@ -169,8 +170,10 @@ p {
 .hero-title {
   color: #ffffff;
   max-width: 496px;
+  margin: 0 auto 48px auto;
 }
 .hero-btn {
+  margin: 0 auto;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -271,8 +274,6 @@ p {
 }
 .sec-portfolio-li {
   background-color: #ffffff;
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
   border-top: none;
   width: calc((100% - 48px) / 3);
 }
