@@ -105,12 +105,14 @@ p {
 .header-item-list:hover,
 .header-item-list:focus {
   color: #404bbf;
+  padding: 24px 0;
 }
 .header-list-item {
   padding: 24px 0;
 }
 .header-address {
   font-style: normal;
+  margin-left: auto;
 }
 .header-nav-address {
   display: flex;
@@ -174,6 +176,7 @@ p {
 }
 .sec-strat-li {
   width: calc((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 .sec-strat-name {
   margin-bottom: 8px;
@@ -223,6 +226,7 @@ p {
 
 .sec-our-li {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
 }
 .portfolio {
   background-color: #f4f4fd;
@@ -246,6 +250,7 @@ p {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+  width: calc((100% - 48px) / 3);
 }
 .strange-div {
   padding: 32px 16px;
