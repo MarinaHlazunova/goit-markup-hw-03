@@ -116,6 +116,10 @@ p {
   display: flex;
   gap: 40px;
 }
+.header-address-li {
+  display: flex;
+  gap: 40px;
+}
 .address {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -148,19 +152,51 @@ p {
   display: block;
   min-width: 169px;
   height: 56px;
+  border: none;
   border-radius: 4px;
   cursor: pointer;
+  min-width: 169px;
+  height: 56px;
 }
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: #404bbf;
 }
+.sec-strategy {
+  padding: 120px 0;
+}
+.visually-hidden {
+  visibility: hidden;
+}
+.sec-strat-ul {
+  display: flex;
+  gap: 24px;
+}
+.sec-strat-li {
+  width: calc((100% - 72px) / 4);
+}
+.sec-strat-name {
+  margin-bottom: 8px;
+}
 .sec-our-team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .our-team-title {
   text-align: center;
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+.sec-our-ul {
+  display: flex;
+  gap: 24px;
+}
+.sec-our-li {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+.sec-our-div {
+  padding: 32px 0;
 }
 .sec-our-name {
   font-family: 'Roboto', sans-serif;
@@ -170,6 +206,7 @@ p {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .sec-our-text {
   font-family: 'Roboto', sans-serif;
