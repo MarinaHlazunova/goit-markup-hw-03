@@ -140,6 +140,9 @@ p {
 .header-address {
   font-style: normal;
   margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 .header-nav-address {
   display: flex;
