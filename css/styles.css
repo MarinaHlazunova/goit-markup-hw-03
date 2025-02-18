@@ -253,16 +253,12 @@ p {
   text-align: center;
   color: #434455;
 }
-.sec-our-ul {
-  background-color: #ffffff;
-}
 
 .sec-our-li {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
 }
 .portfolio {
-  background-color: #f4f4fd;
   padding-top: 120px;
   padding-bottom: 120px;
 }
